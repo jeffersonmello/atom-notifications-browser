@@ -39,7 +39,7 @@ function removenotification(id)
   removearray.shift();
 }
 
-document.write('<link rel="stylesheet" type="text/css" href="build/css/notifications.css">');
+document.write('<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/koso00/atom-notifications-browser/8f225324/build/css/notifications.css">');
 document.write('<atom-notifications></atom-notifications>');
 
 notificationarray = [];
