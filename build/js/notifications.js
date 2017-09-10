@@ -40,7 +40,8 @@ function removenotification(id)
 }
 
 document.write('<link rel="stylesheet" type="text/css" href="build/css/notifications.css">');
-document.body.appendChild(document.createElement("atom-notifications"))
+document.write('<atom-notifications></atom-notifications>');
+
 notificationarray = [];
 removearray = [];
 atom = new generatemanager();
