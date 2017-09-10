@@ -1,0 +1,1105 @@
+@font-face {
+  font-family: 'octicons';
+  src: url('../fonts/octicons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.octicon,
+.mega-octicon {
+  font: normal normal normal 16px/1 octicons;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.mega-octicon {
+  font-size: 32px;
+}
+.octicon-alert:before {
+  content: '\f02d';
+}
+/*  */
+.octicon-arrow-down:before {
+  content: '\f03f';
+}
+/*  */
+.octicon-arrow-left:before {
+  content: '\f040';
+}
+/*  */
+.octicon-arrow-right:before {
+  content: '\f03e';
+}
+/*  */
+.octicon-arrow-small-down:before {
+  content: '\f0a0';
+}
+/*  */
+.octicon-arrow-small-left:before {
+  content: '\f0a1';
+}
+/*  */
+.octicon-arrow-small-right:before {
+  content: '\f071';
+}
+/*  */
+.octicon-arrow-small-up:before {
+  content: '\f09f';
+}
+/*  */
+.octicon-arrow-up:before {
+  content: '\f03d';
+}
+/*  */
+.octicon-microscope:before,
+.octicon-beaker:before {
+  content: '\f0dd';
+}
+/*  */
+.octicon-bell:before {
+  content: '\f0de';
+}
+/*  */
+.octicon-book:before {
+  content: '\f007';
+}
+/*  */
+.octicon-bookmark:before {
+  content: '\f07b';
+}
+/*  */
+.octicon-briefcase:before {
+  content: '\f0d3';
+}
+/*  */
+.octicon-broadcast:before {
+  content: '\f048';
+}
+/*  */
+.octicon-browser:before {
+  content: '\f0c5';
+}
+/*  */
+.octicon-bug:before {
+  content: '\f091';
+}
+/*  */
+.octicon-calendar:before {
+  content: '\f068';
+}
+/*  */
+.octicon-check:before {
+  content: '\f03a';
+}
+/*  */
+.octicon-checklist:before {
+  content: '\f076';
+}
+/*  */
+.octicon-chevron-down:before {
+  content: '\f0a3';
+}
+/*  */
+.octicon-chevron-left:before {
+  content: '\f0a4';
+}
+/*  */
+.octicon-chevron-right:before {
+  content: '\f078';
+}
+/*  */
+.octicon-chevron-up:before {
+  content: '\f0a2';
+}
+/*  */
+.octicon-circle-slash:before {
+  content: '\f084';
+}
+/*  */
+.octicon-circuit-board:before {
+  content: '\f0d6';
+}
+/*  */
+.octicon-clippy:before {
+  content: '\f035';
+}
+/*  */
+.octicon-clock:before {
+  content: '\f046';
+}
+/*  */
+.octicon-cloud-download:before {
+  content: '\f00b';
+}
+/*  */
+.octicon-cloud-upload:before {
+  content: '\f00c';
+}
+/*  */
+.octicon-code:before {
+  content: '\f05f';
+}
+/*  */
+.octicon-color-mode:before {
+  content: '\f065';
+}
+/*  */
+.octicon-comment-add:before,
+.octicon-comment:before {
+  content: '\f02b';
+}
+/*  */
+.octicon-comment-discussion:before {
+  content: '\f04f';
+}
+/*  */
+.octicon-credit-card:before {
+  content: '\f045';
+}
+/*  */
+.octicon-dash:before {
+  content: '\f0ca';
+}
+/*  */
+.octicon-dashboard:before {
+  content: '\f07d';
+}
+/*  */
+.octicon-database:before {
+  content: '\f096';
+}
+/*  */
+.octicon-clone:before,
+.octicon-desktop-download:before {
+  content: '\f0dc';
+}
+/*  */
+.octicon-device-camera:before {
+  content: '\f056';
+}
+/*  */
+.octicon-device-camera-video:before {
+  content: '\f057';
+}
+/*  */
+.octicon-device-desktop:before {
+  content: '\f27c';
+}
+/*  */
+.octicon-device-mobile:before {
+  content: '\f038';
+}
+/*  */
+.octicon-diff:before {
+  content: '\f04d';
+}
+/*  */
+.octicon-diff-added:before {
+  content: '\f06b';
+}
+/*  */
+.octicon-diff-ignored:before {
+  content: '\f099';
+}
+/*  */
+.octicon-diff-modified:before {
+  content: '\f06d';
+}
+/*  */
+.octicon-diff-removed:before {
+  content: '\f06c';
+}
+/*  */
+.octicon-diff-renamed:before {
+  content: '\f06e';
+}
+/*  */
+.octicon-ellipsis:before {
+  content: '\f09a';
+}
+/*  */
+.octicon-eye-unwatch:before,
+.octicon-eye-watch:before,
+.octicon-eye:before {
+  content: '\f04e';
+}
+/*  */
+.octicon-file-binary:before {
+  content: '\f094';
+}
+/*  */
+.octicon-file-code:before {
+  content: '\f010';
+}
+/*  */
+.octicon-file-directory:before {
+  content: '\f016';
+}
+/*  */
+.octicon-file-media:before {
+  content: '\f012';
+}
+/*  */
+.octicon-file-pdf:before {
+  content: '\f014';
+}
+/*  */
+.octicon-file-submodule:before {
+  content: '\f017';
+}
+/*  */
+.octicon-file-symlink-directory:before {
+  content: '\f0b1';
+}
+/*  */
+.octicon-file-symlink-file:before {
+  content: '\f0b0';
+}
+/*  */
+.octicon-file-text:before {
+  content: '\f011';
+}
+/*  */
+.octicon-file-zip:before {
+  content: '\f013';
+}
+/*  */
+.octicon-flame:before {
+  content: '\f0d2';
+}
+/*  */
+.octicon-fold:before {
+  content: '\f0cc';
+}
+/*  */
+.octicon-gear:before {
+  content: '\f02f';
+}
+/*  */
+.octicon-gift:before {
+  content: '\f042';
+}
+/*  */
+.octicon-gist:before {
+  content: '\f00e';
+}
+/*  */
+.octicon-gist-secret:before {
+  content: '\f08c';
+}
+/*  */
+.octicon-git-branch-create:before,
+.octicon-git-branch-delete:before,
+.octicon-git-branch:before {
+  content: '\f020';
+}
+/*  */
+.octicon-git-commit:before {
+  content: '\f01f';
+}
+/*  */
+.octicon-git-compare:before {
+  content: '\f0ac';
+}
+/*  */
+.octicon-git-merge:before {
+  content: '\f023';
+}
+/*  */
+.octicon-git-pull-request-abandoned:before,
+.octicon-git-pull-request:before {
+  content: '\f009';
+}
+/*  */
+.octicon-globe:before {
+  content: '\f0b6';
+}
+/*  */
+.octicon-graph:before {
+  content: '\f043';
+}
+/*  */
+.octicon-heart:before {
+  content: '\2665';
+}
+/* ♥ */
+.octicon-history:before {
+  content: '\f07e';
+}
+/*  */
+.octicon-home:before {
+  content: '\f08d';
+}
+/*  */
+.octicon-horizontal-rule:before {
+  content: '\f070';
+}
+/*  */
+.octicon-hubot:before {
+  content: '\f09d';
+}
+/*  */
+.octicon-inbox:before {
+  content: '\f0cf';
+}
+/*  */
+.octicon-info:before {
+  content: '\f059';
+}
+/*  */
+.octicon-issue-closed:before {
+  content: '\f028';
+}
+/*  */
+.octicon-issue-opened:before {
+  content: '\f026';
+}
+/*  */
+.octicon-issue-reopened:before {
+  content: '\f027';
+}
+/*  */
+.octicon-jersey:before {
+  content: '\f019';
+}
+/*  */
+.octicon-key:before {
+  content: '\f049';
+}
+/*  */
+.octicon-keyboard:before {
+  content: '\f00d';
+}
+/*  */
+.octicon-law:before {
+  content: '\f0d8';
+}
+/*  */
+.octicon-light-bulb:before {
+  content: '\f000';
+}
+/*  */
+.octicon-link:before {
+  content: '\f05c';
+}
+/*  */
+.octicon-link-external:before {
+  content: '\f07f';
+}
+/*  */
+.octicon-list-ordered:before {
+  content: '\f062';
+}
+/*  */
+.octicon-list-unordered:before {
+  content: '\f061';
+}
+/*  */
+.octicon-location:before {
+  content: '\f060';
+}
+/*  */
+.octicon-gist-private:before,
+.octicon-mirror-private:before,
+.octicon-git-fork-private:before,
+.octicon-lock:before {
+  content: '\f06a';
+}
+/*  */
+.octicon-logo-github:before {
+  content: '\f092';
+}
+/*  */
+.octicon-mail:before {
+  content: '\f03b';
+}
+/*  */
+.octicon-mail-read:before {
+  content: '\f03c';
+}
+/*  */
+.octicon-mail-reply:before {
+  content: '\f051';
+}
+/*  */
+.octicon-mark-github:before {
+  content: '\f00a';
+}
+/*  */
+.octicon-markdown:before {
+  content: '\f0c9';
+}
+/*  */
+.octicon-megaphone:before {
+  content: '\f077';
+}
+/*  */
+.octicon-mention:before {
+  content: '\f0be';
+}
+/*  */
+.octicon-milestone:before {
+  content: '\f075';
+}
+/*  */
+.octicon-mirror-public:before,
+.octicon-mirror:before {
+  content: '\f024';
+}
+/*  */
+.octicon-mortar-board:before {
+  content: '\f0d7';
+}
+/*  */
+.octicon-mute:before {
+  content: '\f080';
+}
+/*  */
+.octicon-no-newline:before {
+  content: '\f09c';
+}
+/*  */
+.octicon-octoface:before {
+  content: '\f008';
+}
+/*  */
+.octicon-organization:before {
+  content: '\f037';
+}
+/*  */
+.octicon-package:before {
+  content: '\f0c4';
+}
+/*  */
+.octicon-paintcan:before {
+  content: '\f0d1';
+}
+/*  */
+.octicon-pencil:before {
+  content: '\f058';
+}
+/*  */
+.octicon-person-add:before,
+.octicon-person-follow:before,
+.octicon-person:before {
+  content: '\f018';
+}
+/*  */
+.octicon-pin:before {
+  content: '\f041';
+}
+/*  */
+.octicon-plug:before {
+  content: '\f0d4';
+}
+/*  */
+.octicon-repo-create:before,
+.octicon-gist-new:before,
+.octicon-file-directory-create:before,
+.octicon-file-add:before,
+.octicon-plus:before {
+  content: '\f05d';
+}
+/*  */
+.octicon-primitive-dot:before {
+  content: '\f052';
+}
+/*  */
+.octicon-primitive-square:before {
+  content: '\f053';
+}
+/*  */
+.octicon-pulse:before {
+  content: '\f085';
+}
+/*  */
+.octicon-question:before {
+  content: '\f02c';
+}
+/*  */
+.octicon-quote:before {
+  content: '\f063';
+}
+/*  */
+.octicon-radio-tower:before {
+  content: '\f030';
+}
+/*  */
+.octicon-repo-delete:before,
+.octicon-repo:before {
+  content: '\f001';
+}
+/*  */
+.octicon-repo-clone:before {
+  content: '\f04c';
+}
+/*  */
+.octicon-repo-force-push:before {
+  content: '\f04a';
+}
+/*  */
+.octicon-gist-fork:before,
+.octicon-repo-forked:before {
+  content: '\f002';
+}
+/*  */
+.octicon-repo-pull:before {
+  content: '\f006';
+}
+/*  */
+.octicon-repo-push:before {
+  content: '\f005';
+}
+/*  */
+.octicon-rocket:before {
+  content: '\f033';
+}
+/*  */
+.octicon-rss:before {
+  content: '\f034';
+}
+/*  */
+.octicon-ruby:before {
+  content: '\f047';
+}
+/*  */
+.octicon-screen-full:before {
+  content: '\f066';
+}
+/*  */
+.octicon-screen-normal:before {
+  content: '\f067';
+}
+/*  */
+.octicon-search-save:before,
+.octicon-search:before {
+  content: '\f02e';
+}
+/*  */
+.octicon-server:before {
+  content: '\f097';
+}
+/*  */
+.octicon-settings:before {
+  content: '\f07c';
+}
+/*  */
+.octicon-shield:before {
+  content: '\f0e1';
+}
+/*  */
+.octicon-log-in:before,
+.octicon-sign-in:before {
+  content: '\f036';
+}
+/*  */
+.octicon-log-out:before,
+.octicon-sign-out:before {
+  content: '\f032';
+}
+/*  */
+.octicon-squirrel:before {
+  content: '\f0b2';
+}
+/*  */
+.octicon-star-add:before,
+.octicon-star-delete:before,
+.octicon-star:before {
+  content: '\f02a';
+}
+/*  */
+.octicon-stop:before {
+  content: '\f08f';
+}
+/*  */
+.octicon-repo-sync:before,
+.octicon-sync:before {
+  content: '\f087';
+}
+/*  */
+.octicon-tag-remove:before,
+.octicon-tag-add:before,
+.octicon-tag:before {
+  content: '\f015';
+}
+/*  */
+.octicon-telescope:before {
+  content: '\f088';
+}
+/*  */
+.octicon-terminal:before {
+  content: '\f0c8';
+}
+/*  */
+.octicon-three-bars:before {
+  content: '\f05e';
+}
+/*  */
+.octicon-thumbsdown:before {
+  content: '\f0db';
+}
+/*  */
+.octicon-thumbsup:before {
+  content: '\f0da';
+}
+/*  */
+.octicon-tools:before {
+  content: '\f031';
+}
+/*  */
+.octicon-trashcan:before {
+  content: '\f0d0';
+}
+/*  */
+.octicon-triangle-down:before {
+  content: '\f05b';
+}
+/*  */
+.octicon-triangle-left:before {
+  content: '\f044';
+}
+/*  */
+.octicon-triangle-right:before {
+  content: '\f05a';
+}
+/*  */
+.octicon-triangle-up:before {
+  content: '\f0aa';
+}
+/*  */
+.octicon-unfold:before {
+  content: '\f039';
+}
+/*  */
+.octicon-unmute:before {
+  content: '\f0ba';
+}
+/*  */
+.octicon-versions:before {
+  content: '\f064';
+}
+/*  */
+.octicon-watch:before {
+  content: '\f0e0';
+}
+/*  */
+.octicon-remove-close:before,
+.octicon-x:before {
+  content: '\f081';
+}
+/*  */
+.octicon-zap:before {
+  content: '\26A1';
+}
+/* ⚡ */
+atom-notifications {
+  font-size: 10px;
+  display: block;
+  z-index: 1000;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  font-size: 1.2em;
+  overflow-x: hidden;
+  overflow-y: auto;
+  pointer-events: none;
+}
+atom-notifications::-webkit-scrollbar {
+  display: none;
+}
+atom-notifications atom-notification .close-all {
+  display: none;
+}
+atom-notifications atom-notification:first-child .close-all {
+  display: block;
+}
+atom-notifications atom-notification:first-child.has-close .message {
+  padding-right: 115px;
+}
+atom-notifications atom-notification:only-child .close-all {
+  display: none;
+}
+atom-notifications atom-notification:only-child.has-close .message {
+  padding-right: 34px;
+}
+atom-notification {
+  float: right;
+  clear: right;
+  position: relative;
+  width: 200px;
+  padding-left: 30px;
+  margin-bottom: 2px;
+  max-height: 800px;
+  word-wrap: break-word;
+  pointer-events: auto;
+}
+atom-notification.icon:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 2px 0 0 2px;
+}
+atom-notification:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 2px;
+}
+atom-notification .meta,
+atom-notification .close,
+atom-notification .detail,
+atom-notification .stack-toggle,
+atom-notification .stack-container {
+  display: none;
+}
+atom-notification.fatal .meta,
+atom-notification.has-description .meta,
+atom-notification.has-buttons .meta,
+atom-notification.has-close .close,
+atom-notification.has-detail .detail,
+atom-notification.has-stack .stack-toggle,
+atom-notification.has-stack .stack-container {
+  display: block;
+}
+atom-notification .item {
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+atom-notification .item.message {
+  border-top: none;
+}
+atom-notification .item.message p:last-child {
+  margin-bottom: 0;
+}
+atom-notification.has-close .message {
+  padding-right: 34px;
+}
+atom-notification .content {
+  border-radius: 0 2px 2px 0;
+}
+atom-notification p {
+  display: inline;
+  font-size: 80%;
+}
+atom-notification .notification-icon {
+  position: absolute;
+  left: 0px;
+  width: 30px;
+  height: 100%;
+  background-color: rgba(17, 46, 77, 0.6);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+atom-notification .icon-e {
+  left: 8;
+  position: absolute;
+  top: 35%;
+}
+atom-notification .message {
+  max-height: 200px;
+  overflow-y: auto;
+}
+atom-notification .close-all.btn {
+  position: absolute;
+  top: 7px;
+  right: 38px;
+  background: none;
+}
+atom-notification .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+  text-shadow: none;
+  color: black;
+  opacity: .4;
+}
+atom-notification .close:hover,
+atom-notification .close:focus {
+  opacity: 1;
+}
+atom-notification .close:active {
+  opacity: .2;
+}
+atom-notification .close:before {
+  margin: 0;
+}
+atom-notification.has-detail {
+  width: 450px;
+}
+atom-notification .detail {
+  font-size: .8em;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-clip: padding-box;
+  max-height: 500px;
+  overflow-y: auto;
+}
+atom-notification .detail .line {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+atom-notification .detail .stack-toggle {
+  margin-top: 10px;
+}
+atom-notification .detail .stack-toggle .icon:before {
+  margin: 0;
+}
+atom-notification .detail .detail-content .line {
+  white-space: pre-wrap;
+}
+atom-notification .detail .stack-container {
+  margin-top: 10px;
+}
+atom-notification .detail .stack-container .line {
+  white-space: pre;
+}
+atom-notification .description {
+  font-size: .8em;
+}
+atom-notification .description p:last-child {
+  margin-bottom: 0;
+}
+atom-notification .btn-toolbar.btn-toolbar {
+  margin-top: 10px;
+  margin-bottom: -5px;
+  margin-left: 0;
+}
+atom-notification .btn-toolbar.btn-toolbar > .btn {
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+atom-notification .btn-copy-report {
+  vertical-align: middle;
+}
+atom-notification .opening {
+  cursor: progress;
+}
+atom-notification.fatal .content {
+  color: #000000;
+  background-color: #ff4d4d;
+}
+atom-notification.fatal a {
+  color: #660000;
+}
+atom-notification.fatal code {
+  color: #000000;
+  background-color: #fa2e2e;
+}
+atom-notification.fatal.icon:before {
+  color: #ff8585;
+  background-color: #c00;
+}
+atom-notification.fatal .notification-icon {
+  color: #ff4d4d;
+  background-color: #b30000;
+}
+atom-notification.fatal .close-all.btn {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: none;
+}
+atom-notification.fatal .close-all.btn:hover {
+  background: none;
+  border-color: rgba(0, 0, 0, 0.8);
+  color: #000000;
+}
+atom-notification.error .content {
+  color: #000000;
+  background-color: #ff4d4d;
+}
+atom-notification.error a {
+  color: #660000;
+}
+atom-notification.error code {
+  color: #000000;
+  background-color: #fa2e2e;
+}
+atom-notification.error.icon:before {
+  color: #ff8585;
+  background-color: #c00;
+}
+atom-notification.error .notification-icon {
+  color: #ff4d4d;
+  background-color: #b30000;
+}
+atom-notification.error .close-all.btn {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: none;
+}
+atom-notification.error .close-all.btn:hover {
+  background: none;
+  border-color: rgba(0, 0, 0, 0.8);
+  color: #000000;
+}
+atom-notification.warning .content {
+  color: #6c2c05;
+  background-color: #f9e8b9;
+}
+atom-notification.warning a {
+  color: #ce5509;
+}
+atom-notification.warning code {
+  color: #6c2c05;
+  background-color: #f3dc9a;
+}
+atom-notification.warning.icon:before {
+  color: #fdf9ec;
+  background-color: #EFC243;
+}
+atom-notification.warning .notification-icon {
+  color: #f9e8b9;
+  background-color: #edba2b;
+}
+atom-notification.warning .close-all.btn {
+  border: 1px solid rgba(108, 44, 5, 0.3);
+  color: rgba(108, 44, 5, 0.6);
+  text-shadow: none;
+}
+atom-notification.warning .close-all.btn:hover {
+  background: none;
+  border-color: rgba(108, 44, 5, 0.8);
+  color: #6c2c05;
+}
+atom-notification.info .content {
+  color: #112e4d;
+  background-color: #80cbff;
+}
+atom-notification.info a {
+  color: #2460a0;
+}
+atom-notification.info code {
+  color: #112e4d;
+  background-color: #60bcfb;
+}
+atom-notification.info.icon:before {
+  color: #b8e2ff;
+  background-color: #0098ff;
+}
+atom-notification.info .notification-icon {
+  color: #80cbff;
+  background-color: #0089e6;
+}
+atom-notification.info .close-all.btn {
+  border: 1px solid rgba(17, 46, 77, 0.3);
+  color: rgba(17, 46, 77, 0.6);
+  text-shadow: none;
+}
+atom-notification.info .close-all.btn:hover {
+  background: none;
+  border-color: rgba(17, 46, 77, 0.8);
+  color: #112e4d;
+}
+atom-notification.success .content {
+  color: #05371b;
+  background-color: #72efa8;
+}
+atom-notification.success a {
+  color: #0e9448;
+}
+atom-notification.success code {
+  color: #05371b;
+  background-color: #56e695;
+}
+atom-notification.success.icon:before {
+  color: #a4f5c7;
+  background-color: #17ca65;
+}
+atom-notification.success .notification-icon {
+  color: #72efa8;
+  background-color: #14b35a;
+}
+atom-notification.success .close-all.btn {
+  border: 1px solid rgba(5, 55, 27, 0.3);
+  color: rgba(5, 55, 27, 0.6);
+  text-shadow: none;
+}
+atom-notification.success .close-all.btn:hover {
+  background: none;
+  border-color: rgba(5, 55, 27, 0.8);
+  color: #05371b;
+}
+atom-notification {
+  -webkit-animation: notification-show 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.27499);
+}
+atom-notification[type="fatal"] {
+  -webkit-animation: notification-show 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.27499), notification-shake 4s 2s;
+  -webkit-animation-iteration-count: 1, 3;
+}
+atom-notification[type="fatal"]:hover {
+  -webkit-animation-play-state: paused;
+}
+atom-notification.remove,
+atom-notification.remove:hover {
+  -webkit-animation: notification-hide 0.12s cubic-bezier(0.34, 0.07, 1, 0.2), notification-shrink 0.24s 0.12s cubic-bezier(0.5, 0, 0, 1);
+  -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes notification-show {
+  0% {
+    opacity: 0;
+    transform: perspective(200px) translate(0, -30px) rotateX(90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(200px) translate(0, 0) rotateX(0deg);
+  }
+}
+@-webkit-keyframes notification-hide {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+@-webkit-keyframes notification-shrink {
+  0% {
+    opacity: 0;
+    max-height: 800px;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 0;
+    max-height: 0;
+    transform: scale(0.8);
+  }
+}
+@-webkit-keyframes notification-shake {
+  0% {
+    transform: translateX(0);
+  }
+  2% {
+    transform: translateX(-4px);
+  }
+  4% {
+    transform: translateX(8px);
+  }
+  6% {
+    transform: translateX(-4px);
+  }
+  8% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
