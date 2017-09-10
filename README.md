@@ -5,14 +5,11 @@ With this plugin you can use them as you would use in atom.
 
 ## Install
 
-(this plugin requires less and jquery so inser the cdn or local href)
-Include these lines in your html
+Include this line in your html
 
 ```
-<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
-<link rel="stylesheet/less" type="text/less" href="notifications.less">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.js"></script>
-<script src="notifications.js"></script>
+<script src="https://cdn.rawgit.com/koso00/atom-notifications-browser/abc8f3f5/build/js/notifications.js"> </script>
+
 
 ```
 
