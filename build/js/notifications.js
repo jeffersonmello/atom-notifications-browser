@@ -44,4 +44,4 @@ document.write('<atom-notifications></atom-notifications>');
 
 notificationarray = [];
 removearray = [];
-atom = new generatemanager();
+window.atom = new generatemanager();
